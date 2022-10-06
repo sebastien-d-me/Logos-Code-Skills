@@ -1,0 +1,62 @@
+{
+    "name": "react-logos-code-skills",
+    "version": "1.0.0",
+    "description": "Get custom logos for your software development skills.",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "scripts": {
+        "build": "RMDIR dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sebastien-d-me/logos-code-skills"
+    },
+    "keywords": [
+        "react",
+        "module",
+        "component",
+        "skill",
+        "icon"
+    ],
+    "author": "Sébastien D",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sebastien-d-me/logos-code-skills/issues"
+    },
+    "homepage": "https://sebastien-d-me.github.io/logos-code-skills/",
+    "devDependencies": {
+        "@babel/cli": "^7.18.6",
+        "@babel/core": "^7.18.6",
+        "@babel/preset-env": "^7.18.6",
+        "@babel/preset-react": "^7.18.6",
+        "babel-cli": "^6.26.0",
+        "@babel/polyfill": "^7.12.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "dependencies": {
+        "styled-components": "^5.3.6"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
