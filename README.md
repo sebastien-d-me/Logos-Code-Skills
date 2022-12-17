@@ -1,3 +1,5 @@
+<meta property="og:image" content="https://raw.githubusercontent.com/sebastien-d-me/logos-code-skills/main/Logo.jpg">
+
 # Logos Code Skills - Sébastien D
 <img alt="Logos Code Skills logo" src="Logo.jpg" />
 
